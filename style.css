@@ -1,0 +1,61 @@
+body{
+    background-color: turquoise;
+}
+
+
+.header h1{
+    background-color:rgba(16, 184, 86, 0.753);
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+.menu{
+    background-color:rgb(230, 173, 173);
+    display: flexbox;
+    justify-content: space-evenly;
+    padding: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+img:hover{
+    opacity: 0.3;
+}
+
+* {
+    border: solid;
+}
+
+.creations img{
+    border:solid;
+    border-color:firebrick;
+    border-radius:100px ;
+
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.creations p{
+    position: static;
+    bottom: 10px;
+    left: 700px;
+    opacity: 0;
+    background-color:chocolate;
+}
+
+.creations:hover p{
+    opacity: 1;
+}
+
+.creations:hover img{
+    transform: scale(2);
+}
+
+
